@@ -8,4 +8,5 @@ echo theme = \"ananke\" >>config.toml
 sed -i 's/My New Hugo Site/Awesome Inc./' config.toml
 hugo new page/index.html
 hugo new post/welcome.md >>public/index.html
+sed -i 's/Welcome/Welcome to Awesome Inc./' content/post/welcome.md
 hugo -D
